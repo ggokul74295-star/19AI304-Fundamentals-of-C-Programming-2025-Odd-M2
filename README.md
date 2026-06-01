@@ -83,6 +83,7 @@ int main() {
 }
 ```
 # Output:
+<img width="429" height="214" alt="image" src="https://github.com/user-attachments/assets/19184ed1-7a42-4dcb-bdcc-b51eec752eb0" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -129,6 +130,7 @@ int main() {
 }
 ```
 # Output:
+<img width="238" height="158" alt="image" src="https://github.com/user-attachments/assets/b3eb5c7f-e0c2-4c3e-921f-f4d2a3fb97a4" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -193,14 +195,16 @@ int main() {
     }
 
     if (flag == 0)
-        printf("Prime");
+        printf("this is a Prime number");
     else
-        printf("Not Prime");
+        printf("this is a Not Prime numer");
 
     return 0;
 }
 ```
 # Output:
+<img width="426" height="146" alt="image" src="https://github.com/user-attachments/assets/f63f97f4-9212-4a60-ab1f-96f45d1f51df" />
+<img width="413" height="189" alt="image" src="https://github.com/user-attachments/assets/a5d18b5e-34b2-478a-9117-5755188e38b2" />
 
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -275,6 +279,7 @@ int main() {
 }
 ```
 # Output:
+<img width="134" height="153" alt="image" src="https://github.com/user-attachments/assets/d0d692f6-e0b0-4e8a-940c-6f3a1ea82872" />
 
 # Result: 
   Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -329,29 +334,25 @@ int main() {
   Stop
 # Program:
 ```
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main(){
     int i, j;
-
     printf("0\n");
-
-    for (i = 7; i >= 1; i--) {
-        for (j = i; j <= 7; j++)
+    for(i = 7; i >= 1; i--){
+        for(j = i; j <= 7; j++)
             printf("%d ", j);
-
         printf("0 ");
-
-        for (j = 7; j >= i; j--)
+        for(j = 7; j >= i; j--)
             printf("%d ", j);
-
         printf("\n");
     }
-
     return 0;
 }
 ```
 # Output
+<img width="598" height="440" alt="image" src="https://github.com/user-attachments/assets/d5bf7567-ff51-4c25-8eb9-0ef738b20ad0" />
+
 # Result:
   Thus, the program was implemented and executed successfully, and the required output was obtained.
 
